@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-GroceryHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/icon.png">
+</head>
+<body>
+
+    <header class="header">
+        <a href="/Index.html" class="logo"> <i class="fas fa-carrot" style="color: #f86939"></i> GroceryHub </a>
+
+        <nav class="navbar">
+            <a href="#products">page 2</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/image/image 1 (1).png" alt="This is an image">
+                <div class="content">
+                    <h3>chilly</h3>
+                    <span class="price">25/-</span>
+                    <span class="quantity">qty: 100g</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/image/image 1 (7).png" alt="This is an image">
+                <div class="content">
+                    <h3>broccoli</h3>
+                    <span class="price">50/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="total"> total: 75/- </div>
+            <a href="/Payment form/Form1.html" target="_blank" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        
+    </header>
+    
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for you</h3>
+            <p>An online grocer is either a brick-and-mortar supermarket or grocery store that allows online ordering, or a standalone e-commerce service that includes grocery items. There is usually a delivery charge for this service.
+            </p>
+            <a href="/Index.html" class="btn">GroceryHub</a> 
+        </div>
+
+    </section>
+
+
+    <section class="products" id="products">
+
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="swiper product-slider">
+
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (2).png" alt="">
+                    <h3>Potato</h3>
+                    <div class="price"> 20/- to 30/-</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (1).png" alt="">
+                    <h3>chilly</h3>
+                    <div class="price"> 10/- for 100g</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>    
+
+            <div class="swiper product-slider">    
+
+                <div class="swiper-slide box">
+                    <img src="/image/chicken.png" alt="">
+                    <h3>chicken</h3>
+                    <div class="price"> 280/- to 350/- per kg</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/chicken (1).png" alt="">
+                    <h3>Daal</h3>
+                    <div class="price"> 50/- to 150/-</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            <div class="swiper product-slider">    
+
+                <div class="swiper-slide box">
+                    <img src="/image/Egg.png" alt="">
+                    <h3>egg</h3>
+                    <div class="price"> 42/- for 6</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (4).png" alt="">
+                    <h3>milk</h3>
+                    <div class="price"> 30/- per litre</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+            </div>
+
+            <div class="swiper product-slider">
+
+
+                <div class="swiper-slide box">
+                    <img src="/image/rice.png" alt="">
+                    <h3>rice</h3>
+                    <div class="price"> 80/- per kg</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (7).png" alt="">
+                    <h3>broccoli</h3>
+                    <div class="price"> 50/- for 1</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            <div class="swiper product-slider">
+
+                <div class="swiper-slide box">
+                    <img src="/image/orange.png" alt="">
+                    <h3>orange</h3>
+                    <div class="price"> 100/- per 500g</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (11).png" alt="">
+                    <h3>tomato</h3>
+                    <div class="price"> 60/- per kg</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            <div class="swiper product-slider">
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (8).png" alt="">
+                    <h3>carrot</h3>
+                    <div class="price"> 80/- for 1kg</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/image/image 1 (9).png" alt="">
+                    <h3>spices</h3>
+                    <div class="price"> starts from 20/-</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+            <div class="swiper product-slider">
+
+                <div class="swiper-slide box">
+                    <img src="/image/beef.png" alt="">
+                    <h3>beef</h3>
+                    <div class="price"> 200/- per kg</div>
+                    <div class="stras">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            <div class="swiper-slide box">
+                <img src="/image/salt.png" alt="">
+                <h3>salt</h3>
+                <div class="price"> 25/- per kg</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-slide box">
+                <img src="/image/watermelon.png" alt="">
+                <h3>watermelon</h3>
+                <div class="price"> 50/- for 1</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/image/butter.png" alt="">
+                <h3>butter</h3>
+                <div class="price"> 90/- for 200g</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-slide box">
+                <img src="/image/oil.png" alt="">
+                <h3>oil</h3>
+                <div class="price"> 150/- per litre</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/image/banana.png" alt="">
+                <h3>banana</h3>
+                <div class="price"> 60/- for 12</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-slide box">
+                <img src="/image/onion.png" alt="">
+                <h3>onion</h3>
+                <div class="price"> 40/- for 1kg</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/image/coco.png" alt="">
+                <h3>coconut</h3>
+                <div class="price"> 40/- per 1</div>
+                <div class="stras">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    </div>
+
+    </section>
+
+    <section class="page">
+
+        <div class="pagination">
+            <a href="/Shop now/shop.html">1</a>
+            <a href="/Shop now/shop1.html">2</a>
+            <a href="/Shop now/shop2.html">3</a>
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> GroceryHub <i class="fas fa-carrot"></i> </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, iste.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-455-3333 </a>
+                <a href="#" class="links" style="text-transform: lowercase;"> <i class="fas fa-envelope"></i> help.groceryhub@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+
+            </div>
+
+            <!-- <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div> -->
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="/image/payment_final-removebg-preview.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> Sarthak Chatterjee</span> | © all rights reserved  </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
